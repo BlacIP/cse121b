@@ -10,7 +10,24 @@ body {
     background-image: url('https://source.unsplash.com/1600x900/?landscape');
     font-size: 120%;
   }
-  
+  .nav{
+    position: absolute;
+    top: 750px;
+    right: 39%;
+    padding: 4px 20px;
+    border-bottom: none;
+    font-style: oblique;
+    border: 1px solid rgba(255, 255, 255, 0.074);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.074);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    
+  }
+  .nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
   .card {
     background: #000000d0;
     color: white;
